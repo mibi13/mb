@@ -1,7 +1,7 @@
 importScripts('https://raw.githubusercontent.com/mibi13/mb/master/client.js');
 self.addEventListener('install', function(e) {
 e.waitUntil(
-caches.open('ramaibeud').then(function(cache) {
+caches.open('ReloadTrans').then(function(cache) {
 return cache.addAll([
 '/'
 ]);
